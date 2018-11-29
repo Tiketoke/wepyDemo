@@ -1,0 +1,13 @@
+{
+  "description": "test",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram",
+  "appid": "wx33d4fb802849c49d",
+  "projectname": "my-project",
+  "miniprogramRoot": "./dist"
+}
