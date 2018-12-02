@@ -101,8 +101,11 @@
               query: {
                 data:e.detail.userInfo
               }
-            })
-            console.log(rlt)
+            }).then((res)=>{
+              console.log('rlt',res)
+            },(error)=>{
+              console.log('error',error)
+            });
           }
         }
       })
